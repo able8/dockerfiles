@@ -1,6 +1,6 @@
 # dockerfiles
 
-### alpine with curl, dig and mtr command.
+### alpine with curl, dig and mtr commands.
 
 - Docker
 ```bash
