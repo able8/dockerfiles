@@ -17,10 +17,16 @@ kubectl run -it --rm debug-test-pod --image=able8/alpine --restart=Never
 kdebug() { kubectl run -it --rm debug-test-pod --image=able8/alpine --restart=Never }
 ```
 
-### alpine with Bash `docker pull able8/alpine:bash`
+### alpine with Bash 
 
-### alpine with SSH and SFTP `docker pull able8/alpine:ssh`
+```bash
+docker pull able8/alpine:bash
+```
 
+### alpine with SSH and SFTP
 
+```bash
+docker pull able8/alpine:ssh
+```
 
 
